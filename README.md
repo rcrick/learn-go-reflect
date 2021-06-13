@@ -1,4 +1,7 @@
 # benchmark
+## todo 
+- [ ] benchmark for protobf    
+## 介绍
 `benchmark`将对象的创建也放到了基准测试中,`benchmark2`没有  
 ## benchmark
 
@@ -9,10 +12,6 @@
     | Benchmark_Reflect_FiledByIndex-16 | 20692100 | 52.14 ns/op |
     | Benchmark_Reflect_FiledByName-16  |  6617115 | 190.1 ns/op |
 
-
-
-
-
 ## benchmark2
     | Func                              |      ops/s |    ns/op     |
     | --------------------------------- | ---------: | :----------: |
@@ -20,7 +19,6 @@
     | Benchmark_Reflect_Set-16          |  838860561 | 1.415 ns/op  |
     | Benchmark_Reflect_FiledByIndex-16 |   50546955 | 23.33 ns/op  |
     | Benchmark_Reflect_FiledByName-16  |    4385136 | 264.9 ns/op  |
-
 
 ## struct/interface call method
     | Func                                |      ops/s |    ns/op     |
@@ -33,6 +31,8 @@
     | Benchmark_SortIface-16  |     6 | 166848069 ns/op |
     | Benchmark_SortStruct-16 |    19 | 59353636 ns/op  |
 
-
 ## cmd:
 `go test -bench=. -benchmem or go test -bench=regex -benchmem `
+
+## ref:
+https://github.com/KippaZou/learn-reflection
