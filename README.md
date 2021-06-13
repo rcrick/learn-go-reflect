@@ -32,3 +32,6 @@
     | ----------------------- | ----: | :-------------: |
     | Benchmark_SortIface-16  |     6 | 166848069 ns/op |
     | Benchmark_SortStruct-16 |    19 | 59353636 ns/op  |
+
+
+## cmd:  go test -bench=. -benchmem or go test -bench=regex -benchmem 
