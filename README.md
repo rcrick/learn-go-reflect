@@ -34,4 +34,5 @@
     | Benchmark_SortStruct-16 |    19 | 59353636 ns/op  |
 
 
-## cmd:  go test -bench=. -benchmem or go test -bench=regex -benchmem 
+## cmd:
+`go test -bench=. -benchmem or go test -bench=regex -benchmem `
